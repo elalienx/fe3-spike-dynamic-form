@@ -19,5 +19,16 @@
     "placeholder": "21",
     "min": 18,
     "max": 100
+  },
+  {
+    "id": 3,
+    "key": "description",
+    "label": "Why do you want to work here?",
+    "type": "textarea",
+    "required": true,
+    "disabled": false,
+    "placeholder": "21",
+    "min": 10,
+    "max": 500
   }
 ]

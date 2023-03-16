@@ -15,8 +15,8 @@ export default function InputTextArea({ item, state }) {
           setForm({ ...form, [formKey]: event.target.value })
         }
         // Commpon properties
-        required={required}
-        disabled={disabled}
+        required={item.required}
+        disabled={item.disabled}
       ></textarea>
     </label>
   );
