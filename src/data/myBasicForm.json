@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "label": "Name:",
+    "type": "text",
+    "required": true,
+    "disabled": false,
+    "placeholder": "Jhon Doe",
+    "maxLength": 12
+  },
+  {
+    "id": 2,
+    "label": "Age:",
+    "type": "number",
+    "required": true,
+    "disabled": false,
+    "placeholder": "21",
+    "min": 18,
+    "max": 100
+  }
+]
