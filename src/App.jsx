@@ -18,11 +18,6 @@ export default function App() {
     alert(`Form submitted with: ${name}, ${age}`);
   }
 
-  // Components
-  const FormFields = myBasicForm.map((item) => (
-    <InputText key={item.id} item={item} />
-  ));
-
   return (
     <div className="App">
       <h1>Dynamic Form</h1>
