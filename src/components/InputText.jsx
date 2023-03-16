@@ -1,13 +1,19 @@
 export default function InputText({ item, state }) {
-  const [value, setValue] = state;
+  const [form, setForm] = state;
+
+  // Properties
+  const formKey = [item.key];
+  const formValue = form[item.key];
 
   return (
     <label className="input-text">
       {item.label}
       <input
         // State
-        value={value}
-        onChange={(event) => setValue(event.target.value)}
+        value={formValue}
+        onChange={(event) =>
+          setForm({ ...form, [formKey]: event.target.value })
+        }
         // Common properties
         type={item.type}
         required={item.required}
